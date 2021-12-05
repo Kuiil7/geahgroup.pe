@@ -10,12 +10,8 @@ const BottleImg = <img alt={props.altText} width={props.width}  src={props.bottl
 <div className="container">
 <ProjectHeader/>
 <div className="columns-reverse ">
-<div className="column ">
-  {ComingSoon}
-</div>
-<div className="column is-3">
-{BottleImg}
-</div>
+<div className="column ">{ComingSoon}</div>
+<div className="column is-3">{BottleImg}</div>
 </div>
 </div>
     </>

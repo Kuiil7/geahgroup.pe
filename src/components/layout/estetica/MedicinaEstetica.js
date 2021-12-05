@@ -27,9 +27,7 @@ const contentList2 = <div className=" content has-text-left px-4 ">
 </div>
 
 const Title =   <p className="title">Medicina Estética</p>
-const CoverImage = <figure className="image " >
-<img alt="four women in bikini "  src={geah_estetica_cover} />
-</figure>
+const CoverImage = <figure className="image " ><img alt="four women in bikini "  src={geah_estetica_cover} /></figure>
 
 
 
@@ -37,13 +35,9 @@ const CoverImage = <figure className="image " >
 <>
 <div className="container ">
 <div className="columns-reverse">
-<div className="column has-text-centered">
- {Title}
-</div>
-<div className="column">
-{CoverImage}
-</div>
-<div class="columns">
+<div className="column has-text-centered">{Title}</div>
+<div className="column">{CoverImage}</div>
+<div className="columns">
 <div className="column">{contentList1}</div>
 <div className="column">{contentList2}</div>
 </div>
