@@ -6,19 +6,25 @@ import {NavLink } from "react-router-dom";
 
 function Main() {
 
-  const Link = <NavLink to="/aboutme"><img alt="Geraldine holding product bottles" src={geah_landing_9_16x9} /></NavLink>
-  const Title = <p className="title is-size-4-mobile is-size-2-desktop  mt-5">Bienvenidos a GEAH GROUP!</p>
+  const Link = <NavLink to="/pharm"><img alt="Geraldine holding product bottles" className="card" width={1600} src={geah_landing_9_16x9} /></NavLink>
+  const Title = <p className="title has-text-centered is-size-4">Bienvenidos a GEAH GROUP!</p>
 
   return (
     <>
-<section className="hero  is-fullheight">
-<div className="has-text-centered">
-{Link}
-{Title}
-<Logos/>
+    <section class="hero is-fullheight">
+  <div class="hero-body">
+  {Link}
+  <div class="">
+   
+
+    </div>
+  </div>
+  <Logos/>
 <ContactInfo/>
-</div>
+
 </section>
+
+
     </>
   );
 }

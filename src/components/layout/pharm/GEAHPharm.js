@@ -22,16 +22,14 @@ function GEAHPharm () {
   ];
 
  const Title =  <p className="title">GEAH PHARM</p>
-const Subtitle = <p className="subtitle">Bienvenidos!</p>
-
- return (
-<>
-<div className="container has-text-centered">
+const MainContent = <div className="container has-text-centered">
 {Title}
-{Subtitle}
 <ProjectHeader/>
 <ImageGallery items={images} />
 </div>
+ return (
+<>
+{MainContent}
 </>
 );
 }

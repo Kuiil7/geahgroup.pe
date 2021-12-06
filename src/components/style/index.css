@@ -44,3 +44,8 @@ body {
 .Whatsapp_float{
 	margin-top:15px;
 }
+
+.avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+}
