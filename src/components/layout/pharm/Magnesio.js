@@ -1,16 +1,16 @@
 import React from "react";
-import Premium1 from "../../images/bottles/PAP_Premium_black.png"
+import Magnesio1 from "../../images/bottles/blue_bottle.png"
 import Card from "./Card";
 
 const modo = <p><strong>MODO DE USO:</strong> Mezclar una cuchara (10gr.) en agua, infuciones o jugos en las mañanas o en las noches.</p>
 
 const ingredientes = <p><strong>INGREDIENTES:</strong>Colageno Hidrolizado, Arándano, Magnesio, Zinc, Maltodextrina, Vitamina C (Ácido ascórbic), stevia.</p>
-function Premium() {
+function Magnesio () {
   return (
     <>
 
 <Card
-bottleImgs={Premium1}
+bottleImgs={Magnesio1}
 modo={modo}
 ingredientes={ingredientes}
 />
@@ -18,4 +18,4 @@ ingredientes={ingredientes}
     </>
   );
 }
-export default Premium;
+export default Magnesio;

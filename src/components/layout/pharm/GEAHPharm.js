@@ -1,9 +1,9 @@
 import React from "react";
-import ProjectHeader from "./ProjectHeader";
 import ImageGallery from 'react-image-gallery';
 import CamuBottle from "../../images/geah_slideshow_combo_1.jpg"
 import CitratoBottle from "../../images/geah_slideshow_combo_2.jpg"
 import BiotinaBottle from "../../images/geah_slideshow_combo_3.jpg"
+import ProductosTab from "./TabsProductos"
 
 function GEAHPharm () {
   const images = [
@@ -22,10 +22,14 @@ function GEAHPharm () {
   ];
 
  const Title =  <p className="title">GEAH PHARM</p>
-const MainContent = <div className="container has-text-centered">
+
+
+
+const MainContent =
+<div className="container">
 {Title}
-<ProjectHeader/>
-<ImageGallery items={images} />
+<ProductosTab />
+<div className="mt-4"><ImageGallery items={images} /></div>
 </div>
  return (
 <>

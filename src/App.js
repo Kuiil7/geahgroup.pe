@@ -6,12 +6,13 @@ import Main from "./components/layout/Main";
 import Header from "./components/layout/Header";
 import CamuPlus from "./components/layout/pharm/CamuPlus";
 import Peau from "./components/layout/pharm/Biotina";
-import Rojas from "./components/layout/pharm/Rojas";
+import Rojos from "./components/layout/pharm/Rojos";
 import Premium from "./components/layout/pharm/Premium.js";
 import Regeneratur from "./components/layout/pharm/Regeneratur";
 import MedicinaEstetica from "./components/layout/estetica/MedicinaEstetica";
 import SaludyBelleza from "./components/layout/saludybelleza/SaludyBelleza";
 import Biotina from "./components/layout/pharm/Biotina";
+import Magnesio from "./components/layout/pharm/Magnesio";
 
 function App() {
   return (
@@ -24,11 +25,13 @@ function App() {
         <Route path="Regeneratur" element={<Regeneratur/>} />
         <Route path="camu" element={<CamuPlus/>} />
         <Route path="peau" element={<Peau/>} />
-        <Route path="rojas" element={<Rojas/>} />
+        <Route path="rojos" element={<Rojos/>} />
         <Route path="premium" element={<Premium/>} />
         <Route path="estetica" element={<MedicinaEstetica/>} />
         <Route path="salud" element={<SaludyBelleza/>} />
         <Route path="biotina" element={<Biotina/>} />
+        <Route path="magnesio" element={<Magnesio/>} />
+
       </Routes>
     </div>
   );
